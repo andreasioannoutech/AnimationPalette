@@ -11,8 +11,28 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.kikkos.animationpalette.MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/sharedElement"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"/>
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="15dp"
+        android:text="Shared Element"/>
+
+    <ImageView
+        android:id="@+id/imageViewMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/sharedElement"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="11dp"
+        android:src="@mipmap/ic_launcher"
+        android:transitionName="sharedIcon"/>
 </RelativeLayout>
