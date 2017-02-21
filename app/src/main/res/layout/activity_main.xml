@@ -13,7 +13,7 @@
 
     <Button
         android:id="@+id/sharedElement"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
@@ -35,4 +35,13 @@
         android:layout_marginTop="11dp"
         android:src="@mipmap/ic_launcher"
         android:transitionName="sharedIcon"/>
+
+    <Button
+        android:id="@+id/rotateAnimation"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="ROTATE"
+        android:layout_below="@+id/imageViewMain"
+        android:layout_alignRight="@+id/sharedElement"
+        android:layout_alignEnd="@+id/sharedElement"/>
 </RelativeLayout>
