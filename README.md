@@ -1,5 +1,5 @@
-# ANDROID ANIMATION PALETTE SAMPLE APP
-This is an application to list all android animation posibilities to date
+# Animation Palette Android App
+Android application to list and demonstration all android animation posibilities to date
 ## How it works
 1. Download a copy of this repo
 2. Build with Android Studio
